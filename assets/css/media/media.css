@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) {
+  header .menu-toggle {
+    display: flex;
+  }
+  header nav.navbar ul {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(16, 24, 32);
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    gap: 24px;
+    padding: 20px;
+    padding-top: 40px;
+  }
+}/*# sourceMappingURL=media.css.map */
